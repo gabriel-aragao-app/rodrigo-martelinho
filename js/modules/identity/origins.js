@@ -7,13 +7,13 @@ export default function initOrigins() {
         title: "Excelência e",
         highlight: "Tradição",
         description: `
-            <p class="mb-6">Na <b>Rodrigo Martelinho de Ouro</b>, nossa paixão por carros vai além do trabalho. Cada veículo que entra em nossa oficina em Cajazeiras recebe um tratamento exclusivo, focado em restaurar a originalidade e o valor do seu bem.</p>
-            <p>Com anos de experiência e ferramentas de precisão, garantimos resultados que impressionam. Seja um leve amassado ou um reparo mais complexo, nossa técnica artesanal dispensa pintura e massa, preservando a essência do seu automóvel.</p>
+            <p class="mb-6 text-xl leading-relaxed">Na <b>Rodrigo Martelinho de Ouro</b>, nossa paixão por carros vai além do trabalho. Cada veículo que entra em nossa oficina em Cajazeiras recebe um tratamento exclusivo, focado em restaurar a originalidade e o valor do seu bem.</p>
+            <p class="text-xl leading-relaxed">Com anos de experiência e ferramentas de precisão, garantimos resultados que impressionam. Seja um leve amassado ou um reparo mais complexo, nossa técnica artesanal dispensa pintura e massa, preservando a essência do seu automóvel.</p>
         `,
         stats: [
             { value: "100%", label: "Clientes Satisfeitos" },
             { value: "4.9", label: "Estrelas no Google" },
-            { value: "SSA", label: "Atendimento em Salvador" }
+            { value: "SSA", label: "Atendimento em Cajazeiras" }
         ],
         image: "assets/images/fachada.jpg"
     };
@@ -28,7 +28,7 @@ export default function initOrigins() {
                     <img src="${content.image}" alt="Artesão trabalhando" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 grayscale group-hover:grayscale-0">
                     <div class="absolute inset-0 bg-gradient-to-t from-brand-black/80 to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <span class="text-brand-gold font-display font-bold text-6xl opacity-20 select-none">EST. 2008</span>
+                        <span class="text-brand-gold font-display font-bold text-6xl opacity-20 select-none">DESDE. 2008</span>
                     </div>
                 </div>
             </div>

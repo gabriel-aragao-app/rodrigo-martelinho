@@ -37,23 +37,23 @@ export default function initTestimonials() {
             <div class="bg-brand-gray p-8 rounded-sm relative border-l-4 border-brand-gold fade-in-up" style="animation-delay: ${index * 0.2}s">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-brand-dark border border-brand-gold flex items-center justify-center text-brand-gold font-bold text-sm">
+                        <div class="w-12 h-12 rounded-full bg-brand-dark border border-brand-gold flex items-center justify-center text-brand-gold font-bold text-lg">
                             ${t.avatar}
                         </div>
                         <div>
-                            <h4 class="text-white font-bold text-sm">${t.name}</h4>
-                            <p class="text-brand-gold text-xs uppercase tracking-wider">${t.car}</p>
+                            <h4 class="text-white font-bold text-lg">${t.name}</h4>
+                            <p class="text-brand-gold text-sm uppercase tracking-wider">${t.car}</p>
                         </div>
                     </div>
                     <div class="flex gap-1">
                         ${createStars(t.rating)}
                     </div>
                 </div>
-                <p class="text-gray-300 italic text-sm leading-relaxed relative z-10">
+                <p class="text-gray-300 italic text-lg leading-relaxed relative z-10">
                     "${t.text}"
                 </p>
                 <!-- Quote icon decoration -->
-                <svg class="absolute top-4 right-4 text-brand-black w-16 h-16 opacity-20 transform -translate-y-2 translate-x-2 z-0" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.325 16.053 14.941 15.471 15.558 14.89 16.666 14.599 18.265 14.599L18.847 14.599 18.847 11.239 12.017 11.239 12.017 3 21.999 3 21.999 12C21.999 15.541 21.056 17.915 19.169 19.123 17.283 20.33 15.566 20.941 14.017 21ZM5.0169997 21L5.0169997 18C5.0169997 16.896 5.3249998 16.053 5.9409998 15.471 6.5579998 14.89 7.6659999 14.599 9.2649999 14.599L9.8469997 14.599 9.8469997 11.239 3.0169997 11.239 3.0169997 3 12.999 3 12.999 12C12.999 15.541 12.056 17.915 10.169 19.123 8.2829995 20.33 6.5659995 20.941 5.0169997 21Z"/></svg>
+                <svg class="absolute top-4 right-4 text-brand-black w-20 h-20 opacity-20 transform -translate-y-2 translate-x-2 z-0" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.325 16.053 14.941 15.471 15.558 14.89 16.666 14.599 18.265 14.599L18.847 14.599 18.847 11.239 12.017 11.239 12.017 3 21.999 3 21.999 12C21.999 15.541 21.056 17.915 19.169 19.123 17.283 20.33 15.566 20.941 14.017 21ZM5.0169997 21L5.0169997 18C5.0169997 16.896 5.3249998 16.053 5.9409998 15.471 6.5579998 14.89 7.6659999 14.599 9.2649999 14.599L9.8469997 14.599 9.8469997 11.239 3.0169997 11.239 3.0169997 3 12.999 3 12.999 12C12.999 15.541 12.056 17.915 10.169 19.123 8.2829995 20.33 6.5659995 20.941 5.0169997 21Z"/></svg>
             </div>
         `;
     };

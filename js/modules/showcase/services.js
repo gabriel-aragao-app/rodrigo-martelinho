@@ -32,8 +32,8 @@ export default function initServices() {
                 <div class="mb-6 group-hover:scale-110 transition-transform duration-300">
                     ${service.icon}
                 </div>
-                <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-brand-gold transition-colors">${service.title}</h3>
-                <p class="text-gray-400 font-light leading-relaxed group-hover:text-gray-200 transition-colors">
+                <h3 class="text-3xl font-display font-bold text-white mb-4 group-hover:text-brand-gold transition-colors">${service.title}</h3>
+                <p class="text-gray-300 text-lg font-light leading-relaxed group-hover:text-white transition-colors">
                     ${service.description}
                 </p>
             </div>
